@@ -1,0 +1,24 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "FlashCard Generator using Node.js for my Class at the Coding BootCamp",
+  "main": "app.js",
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sand0959/Flashcard-Generator.git"
+  },
+  "author": "Ted Sandridge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sand0959/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/sand0959/Flashcard-Generator#readme"
+}
