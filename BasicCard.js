@@ -7,9 +7,9 @@ function BasicCard(front, back) {
 		var data = {
 			front: this.front,
 			back: this.back,
-			type: "basic",
+			type: "basic"
 		};
-		fs.appendFile("log.txt", JSON.stringify(data, null, 2) + ";", function(error) {
+		fs.writeFile("log.txt", JSON.stringify(data) + ',', "utf8", function(error) {
 			if (error) {
 				console.log(error);
 			}

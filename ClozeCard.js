@@ -11,7 +11,7 @@ function ClozeCard (text, cloze) {
 			partial: this.partial,
 			type: "cloze"
 		};
-		fs.appendFile("log.txt", JSON.stringify(data, null, 2) + ";", function(error) {
+		fs.writeFile("log.txt", JSON.stringify(data) + ',', "utf8", function(error) {
 			if (error) {
 				console.log(error);
 			}
